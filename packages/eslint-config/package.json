@@ -9,6 +9,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "postinstall": "node ./lib/post-install.js"
   },
