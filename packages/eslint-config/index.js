@@ -7,6 +7,7 @@ module.exports = {
     },
     "extends": [
         "plugin:@typescript-eslint/recommended",
+        "plugin:mocha/recommended",
         "prettier"
     ],
     "parser": "@typescript-eslint/parser",
@@ -14,7 +15,7 @@ module.exports = {
         "ecmaVersion": 12,
         "sourceType": "module"
     },
-    "plugins": ["@typescript-eslint", "prettier"],
+    "plugins": ["@typescript-eslint", "mocha", "prettier"],
     "rules": {
         "@typescript-eslint/ban-ts-comment": "off",
         "prettier/prettier": "off"
