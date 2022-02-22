@@ -1,0 +1,26 @@
+{
+  "name": "@notebank/core",
+  "version": "0.0.0",
+  "description": "Core module used by Notebank",
+  "keywords": [],
+  "author": "Codemaster Mick <51538065+codemastermick@users.noreply.github.com>",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
