@@ -1,0 +1,5 @@
+{
+    "extends": [
+        "@notebank/eslint-config"
+    ]
+}
