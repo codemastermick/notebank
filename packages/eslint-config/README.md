@@ -1,11 +1,11 @@
 # `@notebank/eslint-config`
 
-> TODO: description
+ESLint configuration used by Notebank
 
 ## Usage
 
-```
-const eslintConfig = require('@notebank/eslint-config');
+Just add it to your dev dependencies and it will automatically configure itself in your project:
 
-// TODO: DEMONSTRATE API
+```
+npm i -D @notebank/eslint-config
 ```
